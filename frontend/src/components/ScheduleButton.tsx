@@ -34,7 +34,7 @@ export default function ScheduleButton({ candidate }: ScheduleButtonProps) {
         `http://localhost:8000/api/get_slots/${encodeURIComponent(candidate.email)}`
       );
       const data = await res.json();
-      if (data.confirmed) setConfirmedSlot(data.confirmed);
+      setConfirmedSlot(data.confirmed);
     } catch (err) {
       console.error(err);
     }
@@ -42,7 +42,7 @@ export default function ScheduleButton({ candidate }: ScheduleButtonProps) {
 
   useEffect(() => {
     fetchConfirmed();
-  }, []);
+  }, [candidate.email]);
 
   const toggleDay = (day: Date) => {
     setSelectedDays(prev => {

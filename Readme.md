@@ -3,7 +3,6 @@
 ![Python](https://img.shields.io/badge/python-3.11-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.100.0-lightblue)
 ![React](https://img.shields.io/badge/React-18.2.0-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
 
 A modern recruitment tool that uses LLMs to analyze CVs, extract candidate data, and update a mock frontend dataset.
 

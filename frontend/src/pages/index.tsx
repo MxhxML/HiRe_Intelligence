@@ -44,7 +44,7 @@ const Index = () => {
               Dashboard RH - Évaluation Candidats
             </h1>
             <p className="text-muted-foreground">
-              Poste: Data Scientist • {mockCandidates.length} candidatures reçues
+              Poste: Data Scientist Senior • {mockCandidates.length} candidatures reçues
             </p>
           </div>
 
